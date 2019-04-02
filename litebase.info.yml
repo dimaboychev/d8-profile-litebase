@@ -1,0 +1,25 @@
+name: Litebase
+type: profile
+description: 'Litebase is an opinionated Drupal distribution (minimal variant) meant as a base point for projects'
+version: VERSION
+core: 8.x
+install:
+  - node
+  - block
+  - page_cache
+  - dynamic_page_cache
+  - config
+  - automated_cron
+  - big_pipe
+  - field_ui
+  - path
+  - views
+  - views_ui
+  - datetime
+  - menu_ui
+  - toolbar
+  - admin_toolbar
+  - admin_toolbar_tools
+themes:
+  - seven
+  - litebase
