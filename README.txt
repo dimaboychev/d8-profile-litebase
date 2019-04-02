@@ -12,6 +12,17 @@ and starting from scratch (AKA base theme = false, which in turn sets it
 to the "Stable" theme)
 
 
+INSTRUCTIONS
+------------
+
+1. Download Drupal 8. Recommended way:
+composer create-project drupal-composer/drupal-project:8.x-dev some-dir --no-interaction
+2. Navigate to web/profiles and clone this repo:
+git clone git@github.com:dimaboychev/d8-profile-litebase.git
+3. Point browser to your site and during installation step "Select an 
+installation profile", chose Litebase.
+
+
 INSTALLATION PROFILES
 ---------------------
 
