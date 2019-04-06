@@ -19,7 +19,8 @@ INSTRUCTIONS
 composer create-project drupal-composer/drupal-project:8.x-dev some-dir --no-interaction
 2. Navigate to web/profiles and clone this repo:
 git clone git@github.com:dimaboychev/d8-profile-litebase.git
-3. Point browser to your site and during installation step "Select an 
+3. Rename d8-profile-litebase -> litebase
+4. Point browser to your site and during installation step "Select an 
 installation profile", choose Litebase.
 
 
